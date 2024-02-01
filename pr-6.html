@@ -1,0 +1,24 @@
+<script type="text/javascript">
+    // 6.Write javascript program to print 1 to n number  and all number sum using do while loop .
+
+    var no = parseInt(prompt("Enter no :-"));
+    var i=1;
+    sum = 0;
+
+    while(i<=no){
+        document.write(`<h1>${i}</h1>`);
+        i++;
+    }
+
+    i=1;
+    document.write(`<h1>All Number Sum</h1>`);
+    
+    do{
+        sum= sum +i;
+        i++;
+    }
+    while(i<=no){
+        document.write(`<h1>${sum}</h1>`);
+    }
+
+</script>
